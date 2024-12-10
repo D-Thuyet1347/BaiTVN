@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "title": "Eoeo",
+        "describe": "This is Eoeo",
+        "price": "45.000",
+        "anh":"../images/i1.png"
+    },
+    {
+        "id": "2",
+        "title": "Popo",
+        "describe": "This is Popo",
+        "price": "25.000",
+        "anh":"../images/f1.png"
+    },
+    {
+        "id": "3",
+        "title": "Vovo",
+        "describe": "This is Vovo",
+        "price": "32.000",
+        "anh":"../images/c3.png"
+    },
+    {
+        "id": "4",
+        "title": "Momo",
+        "describe": "This is Momo",
+        "price": "60.000",
+        "anh":"../images/fi1.png"
+    }
+]

@@ -1,0 +1,87 @@
+.header{
+    display: flex;
+    float: left;
+    margin-left: 100px;
+}
+.header .left{
+    display: inline-block;
+}
+.header .left .left-top{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(64, 62, 62);
+    margin-left: 0;
+    margin-top: 10%;
+}
+.header .left .left-top {
+    display: flex;
+    align-items: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 16%;
+    border-radius: 25px;
+    background-color: rgba(255, 166, 0, 0.164);
+}
+.header .left-top img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    display: inline-flex;
+    border-radius: 50%;
+}
+.header .left-top h1{
+    margin-left: 10px;
+    font-size: 14px;
+    color: orangered;
+}
+
+.header .left .left-middle{
+    font-size: 28px;
+    color: black;
+}
+.header .left .left-bottom{
+    font-size: 14px;
+    color: rgb(64, 62, 62);
+    width: 76%;
+}
+.header button{
+    background-color: rgba(255, 68, 0, 0.721);
+    width: 11%;
+    height: 6%;
+    border-radius: 11px;
+    border: none;
+}
+.header button:hover{
+ animation: nutOrder 1s infinite;
+}
+@keyframes nutOrder {
+    0%, 100% {
+        transform: translateX(0px);
+        background-color: rgba(255, 68, 0, 0.721);
+    }
+    50% {
+    background-color: darkgray;
+    }
+    
+}
+.header .right .right-main{
+    float: right;
+    position: relative;
+    padding: 10px 165px 0 0;
+}
+.right-main img{
+    width: 130%;
+    height: 120%;
+}
+
+.header .right .product-details{
+    top: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    border-radius: 10px;
+    position: absolute;
+    gap: 5%;
+    margin-left: -9%;
+}
+
